@@ -17,4 +17,27 @@ img{
 
 h1{
     font-size: 5rem;
+    text-align: center;
+    font-weight: 900;
+    color: hotpink;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100hv;
+}
+
+.img__container{
+    flex-shrink: 1;
+    max-width: 600px;
+}
+
+.carrot{
+    transition: all ease-in 3s;
+}
+
+.carrot:hover{
+    transform: rotateZ(360deg);
 }
